@@ -1,0 +1,29 @@
+{
+  "name": "bulma-flex-responsive-ness",
+  "version": "1.0.0",
+  "description": "A simple responsive layout build using bulma library",
+  "main": "index.html",
+  "scripts": {
+    "build-sass": "node-sass layout/main.scss  layout/layout.css",
+    "watch-sass": "node-sass layout/main.scss  layout/layout.css -- --w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aknjoroge/flex-query.git"
+  },
+  "keywords": [
+    "flex",
+    "flex-direction",
+    "flex-in-mobile"
+  ],
+  "author": "Alexander Karanja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aknjoroge/flex-query/issues"
+  },
+  "homepage": "https://github.com/aknjoroge/flex-query#readme",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^6.0.1"
+  }
+}
