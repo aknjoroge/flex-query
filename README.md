@@ -266,10 +266,11 @@ The project layouts can be found in the layout folder
 
 ### custom styling
 
-### `custom.scss` is used to add gradients to the columns. `layout\custom.scss`
+### `custom.scss` is used to style the columns. `layout\custom.scss`
 
-```
-
+```css
+ 1. background-image: linear-gradient(25deg, #6679c1, #998da4, #bda285, #dbb861);
+ 2. box-shadow: 5px 10px 10px #0000003d;
 
 ```
 
