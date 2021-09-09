@@ -1,4 +1,3 @@
-
 ## Responsive Flex layout
 
 ---
@@ -7,7 +6,7 @@
 
 The layout is built using bulma css library. Bulma is installed through `npm`.
 
-``` javascript
+```javascript
 npm install bulma --save-dev
 ```
 
@@ -17,21 +16,21 @@ npm install bulma --save-dev
 
 1. node
 
-----
+---
 
-### installation 
+### installation
 
-run 
+run
 
 ```javascript
 npm install
 ```
 
------
+---
 
 ### Code
 
-Bulma is imported in the main.scss file located in `layout\main.scss`. 
+Bulma is imported in the main.scss file located in `layout\main.scss`.
 
 main.scss
 
@@ -39,7 +38,7 @@ main.scss
 @import "../node_modules/bulma/bulma.sass";
 ```
 
-npm scripts are used to run node-sass for compilation, the csss is saved into `style.css` located in `layout\style.css` 
+npm scripts are used to run node-sass for compilation, the csss is saved into `style.css` located in `layout\style.css`
 
 scripts
 
@@ -68,32 +67,24 @@ Get more info from [Bulma Docs](https://bulma.io/documentation/overview)
 
 #### Creating columns
 
- we first create a container called `columns` that holds each individual column
+we first create a container called `columns` that holds each individual column
 
- ```html
- <div class="columns">
-  <div class="column">
-    First column
-  </div>
-  <div class="column">
-    Second column
-  </div>
-  <div class="column">
-    Third column
-  </div>
-  <div class="column">
-    Fourth column
-  </div>
+```html
+<div class="columns">
+  <div class="column">First column</div>
+  <div class="column">Second column</div>
+  <div class="column">Third column</div>
+  <div class="column">Fourth column</div>
 </div>
- ```
+```
 
-The above columns will be automatically responsive 
+The above columns will be automatically responsive
 
 ---
 
 ## Column widths
 
-1. Different column widths can be set for different devices using 
+1. Different column widths can be set for different devices using
 
 ```css
 s-three-quarters-mobile
@@ -102,19 +93,16 @@ is-half-desktop
 is-one-third-widescreen
 is-one-quarter-fullhd
 ```
+
 example
 
 ```html
- <div class="column  is-three-quarters-mobile">
- First column
- </div>
+<div class="column  is-three-quarters-mobile">First column</div>
 
-    <div class="column  is-half-desktop">
-          Third column
-   </div>
+<div class="column  is-half-desktop">Third column</div>
 ```
 
-2. Sizes using multiples of 20%: 
+2. Sizes using multiples of 20%:
 
 ```css
 is-one-fifth
@@ -129,17 +117,15 @@ is-four-fifths
 is-full
 ```
 
-example 
+example
 
 ```html
-<div class="column is-two-fifths">
-   Fourth column
-</div>
+<div class="column is-two-fifths">Fourth column</div>
 ```
 
 3. sizes using grid naming
 
-used by assigning a column a name: 
+used by assigning a column a name:
 
 ```css
 is [number]
@@ -154,10 +140,9 @@ is 8
 example
 
 ```html
- <div class="column is-3">
-          Second column
- </div>
+<div class="column is-3">Second column</div>
 ```
+
 ---
 
 ### Offset
@@ -174,9 +159,7 @@ is-offset-1
 example
 
 ```html
-  <div class="column is-5  is-offset-one-quarter">
-            main
-        </div>
+<div class="column is-5  is-offset-one-quarter">main</div>
 ```
 
 ### Narrow
@@ -187,23 +170,23 @@ Narrow can be set for different divices
 
 ```css
 .is-narrow-mobile
-.is-narrow-tablet
-.is-narrow-touch
-.is-narrow-desktop
-.is-narrow-widescreen
-.is-narrow-fullhd
+  .is-narrow-tablet
+  .is-narrow-touch
+  .is-narrow-desktop
+  .is-narrow-widescreen
+  .is-narrow-fullhd;
 ```
 
 example
 
 ```html
- <div class="column is-narrow">
-    <div class="box" style="width: 200px;">
-      <p class="title is-5">Narrow column</p>
-      <p class="subtitle">This column is only 200px wide.</p>
-    </div>
+<div class="column is-narrow">
+  <div class="box" style="width: 200px;">
+    <p class="title is-5">Narrow column</p>
+    <p class="subtitle">This column is only 200px wide.</p>
+  </div>
+</div>
 ```
-
 
 ---
 
@@ -213,8 +196,8 @@ To activates columns for mobile also we use ` is-mobile` on the column container
 This will prevent stacking of columns on mobile
 
 ```html
-<div class="columns  is-mobile "> 
-    <!---column-->
+<div class="columns  is-mobile ">
+  <!---column-->
 </div>
 ```
 
@@ -225,9 +208,9 @@ This will prevent stacking of columns on mobile
 To remove gaps use 1 ` is-gapless` on the column parent
 
 ```html
-    <div class="columns  is-mobile  is-gapless">
-        <!---column-->
-    </div>
+<div class="columns  is-mobile  is-gapless">
+  <!---column-->
+</div>
 ```
 
 #### Gap variables
@@ -238,6 +221,7 @@ used to specify a gap between the columns, can use `is` and value between 0 - 8
 is-[number]
 
 ```
+
 ```css
 is-2
 ```
@@ -254,12 +238,18 @@ The project layouts can be found in the layout folder
 
 #### Views
 
-> #### 1. (1 of 1) and (1 of 2) and (2 of 2) containers 
-> #### 2. (1 of 3) and (3 of 3) containers 
-> #### 3. (1 of 4) and (4 of 4) containers 
-> #### 4. (1 of 5) and (5 of 5) containers 
-> #### 5. (1 of 8) and (8 of 8) containers 
-> #### 6. (1 of 12) and (12 of 12) containers 
+> #### 1. (1 of 1) and (1 of 2) and (2 of 2) containers
+>
+> #### 2. (1 of 3) and (3 of 3) containers
+>
+> #### 3. (1 of 4) and (4 of 4) containers
+>
+> #### 4. (1 of 5) and (5 of 5) containers
+>
+> #### 5. (1 of 8) and (8 of 8) containers
+>
+> #### 6. (1 of 12) and (12 of 12) containers
+>
 > #### 5. Nested containers
 
 ---
@@ -273,6 +263,8 @@ The project layouts can be found in the layout folder
  2. box-shadow: 5px 10px 10px #0000003d;
 
 ```
+
+### Delete custom.scss and replace it with your styling code. Remove the import in main.scss
 
 ---
 
