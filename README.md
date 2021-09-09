@@ -254,13 +254,13 @@ The project layouts can be found in the layout folder
 
 #### Views
 
-> ### 1. (1 of 1) and (1 of 2) and (2 of 2) containers 
-> ### 2. (1 of 3) and (3 of 3) containers 
-> ### 3. (1 of 4) and (4 of 4) containers 
-> ### 4. (1 of 5) and (5 of 5) containers 
-> ### 5. (1 of 8) and (8 of 8) containers 
-> ### 6. (1 of 12) and (12 of 12) containers 
-> ### 5. Nested containers
+> #### 1. (1 of 1) and (1 of 2) and (2 of 2) containers 
+> #### 2. (1 of 3) and (3 of 3) containers 
+> #### 3. (1 of 4) and (4 of 4) containers 
+> #### 4. (1 of 5) and (5 of 5) containers 
+> #### 5. (1 of 8) and (8 of 8) containers 
+> #### 6. (1 of 12) and (12 of 12) containers 
+> #### 5. Nested containers
 
 ---
 
