@@ -1,64 +1,62 @@
-*{
-    font-family: sans-serif;
-font-size: 18px;
-letter-spacing: 1.1px;
-font-weight: 300;
-color: white;
+* {
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+  font-weight: 300;
+  color: white;
 }
 //   Helper sass file
 // Adding color gradients to the containers
-.one{
-    background-image: linear-gradient(25deg, #3c605a, #705a74, #9c4d8e, #c72ca9)
+.one {
+  background-image: linear-gradient(25deg, #3c605a, #705a74, #9c4d8e, #c72ca9);
 }
-.two{
-    background-image: linear-gradient(25deg, #1b2734, #603133, #9e3431, #df2d2d)
+.two {
+  background-image: linear-gradient(25deg, #1b2734, #603133, #9e3431, #df2d2d);
 }
-.three{
-    background-image: linear-gradient(25deg, #6679c1, #998da4, #bda285, #dbb861)
+.three {
+  background-image: linear-gradient(25deg, #6679c1, #998da4, #bda285, #dbb861);
 }
-.four{
-    background-image: linear-gradient(25deg, #721b00, #9d3703, #cb5403, #fb7200)
+.four {
+  background-image: linear-gradient(25deg, #721b00, #9d3703, #cb5403, #fb7200);
 }
-.five{
-    background-image: linear-gradient(25deg, #0f3e42, #186c56, #179e69, #00d37c)
+.five {
+  background-image: linear-gradient(25deg, #0f3e42, #186c56, #179e69, #00d37c);
 }
-.six{
-    background-image: linear-gradient(25deg, #741e00, #9d3903, #c95402, #f67000)
+.six {
+  background-image: linear-gradient(25deg, #741e00, #9d3903, #c95402, #6219e9);
 }
-.seven{
-    background-image: linear-gradient(25deg, #c4661a, #d2921e, #debd21, #e7e824)
+.seven {
+  background-image: linear-gradient(25deg, #c4661a, #d2921e, #debd21, #e7e824);
 }
-.eight{
-    background-image: linear-gradient(25deg, #390b7d, #63607a, #72ae6f, #64ff55)
+.eight {
+  background-image: linear-gradient(25deg, #390b7d, #63607a, #72ae6f, #64ff55);
 }
-.nine{
-    background-image: linear-gradient(25deg, #2c4ccc, #4477c4, #45a1bb, #2bcbb0)
+.nine {
+  background-image: linear-gradient(25deg, #2c4ccc, #4477c4, #45a1bb, #2bcbb0);
 }
-.ten{
-    background-image: linear-gradient(25deg, #1b4b39, #2b663c, #3a823d, #489f3c)
+.ten {
+  background-image: linear-gradient(25deg, #1b4b39, #2b663c, #3a823d, #489f3c);
 }
-.eleven{
-    background-image: linear-gradient(25deg, #c14646, #d87874, #eaa8a4, #f8d8d8)
+.eleven {
+  background-image: linear-gradient(25deg, #c14646, #d87874, #eaa8a4, #f8d8d8);
 }
-.twelve{
-    background-image: linear-gradient(25deg, #a53183, #c4646c, #de914e, #f5be0e)
+.twelve {
+  background-image: linear-gradient(25deg, #a53183, #c4646c, #de914e, #f5be0e);
 }
 
 // column border-radius and shadow
 
 //container
-.column{
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 10px 10px #0000003d
+.column {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px #0000003d;
 }
-.container{
-    padding: 1rem;
-    
+.container {
+  padding: 1rem;
 }
-
 
 ///Custom styling
-.txt-center{
-text-align: center;
+.txt-center {
+  text-align: center;
 }
